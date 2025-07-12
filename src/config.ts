@@ -1,6 +1,6 @@
 export const oktaConfig = {
-  clientId: '0oalwfppn1P0REzEx1d7', // Replace with your Okta client ID
-  issuer: 'https://login.twisec.com/oauth2/default', // Replace with your Okta domain
+  clientId: '0oao3b136ryPcxHRL1d7', // Replace with your Okta client ID
+  issuer: 'https://usaa-b2b-trial.oktapreview.com/oauth2/default', // Replace with your Okta domain
   redirectUri: window.location.origin + '/login/callback',
   scopes: ['openid', 'profile', 'email'],
   pkce: true
