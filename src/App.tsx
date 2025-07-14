@@ -74,8 +74,8 @@ const Navigation = () => {
   const isAdminUser = authState?.idToken?.claims?.isAdmin === true;
   const isAdmin = (userCategory === 'partner' || userCategory === 'brokerages') && isAdminUser;
   const adminUrl = userCategory === 'brokerages' 
-    ? 'https://login.twisec.com/partner-portal/guoluvkaiqViiKWKU1d7'
-    : 'https://login.twisec.com/partner-portal/guoluvadefnHkIGZ61d7';
+    ? 'https://usaa-b2b-trial.oktapreview.com/partner-portal/guoo3cy7mwXgAYnvj1d7'
+    : 'https://usaa-b2b-trial.oktapreview.com/partner-portal/guoo1sbgvmBzqsXI31d7';
 
   return (
     <nav style={{ marginBottom: '20px' }}>
