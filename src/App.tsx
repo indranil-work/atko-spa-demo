@@ -131,11 +131,26 @@ const HomePage = () => {
         paddingBottom: '20px'
       }}>
         <div style={{ display: 'flex', alignItems: 'center' }}>
+          <div style={{
+            backgroundColor: '#003366',
+            padding: '8px 12px',
+            borderRadius: '4px',
+            marginRight: '15px'
+          }}>
+            <img 
+              src="https://cdn.prgloo.com/web/USAA/usaa-logo.png" 
+              alt="USAA Logo" 
+              style={{ 
+                height: '30px',
+                display: 'block'
+              }} 
+            />
+          </div>
           <h1 style={{ 
             color: '#003366',
             margin: '0',
             fontSize: '24px'
-          }}>Atko Insurance Partner Portal</h1>
+          }}>Partner Portal</h1>
         </div>
         {!authState?.isAuthenticated && <LoginButton />}
       </header>
@@ -150,7 +165,7 @@ const HomePage = () => {
           <h2 style={{ 
             color: '#003366',
             marginBottom: '20px'
-          }}>Welcome to Atko Insurance Partner Portal</h2>
+          }}>Welcome to USAA Partner Portal</h2>
           <p style={{ 
             fontSize: '18px',
             lineHeight: '1.6',
@@ -232,9 +247,9 @@ const HomePage = () => {
         color: '#666',
         fontSize: '14px'
       }}>
-        <p>© 2024 Atko Insurance. All rights reserved.</p>
+        <p>© 2024 USAA. All rights reserved.</p>
         <p style={{ marginTop: '10px' }}>
-          For support, please contact: <a href="mailto:support@atko.com" style={{ color: '#003366' }}>support@atko.com</a>
+          For support, please contact: <a href="mailto:support@usaa.com" style={{ color: '#003366' }}>support@usaa.com</a>
         </p>
       </footer>
     </div>
